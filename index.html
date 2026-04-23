@@ -2,15 +2,107 @@
 <html>
 <head>
   <title>Yingchao Zhang</title>
+  <style>
+    body {
+      font-family: Georgia, serif;
+      max-width: 900px;
+      margin: 40px auto;
+      line-height: 1.6;
+      color: #222;
+    }
+
+    /* Navigation */
+    nav {
+      text-align: right;
+      margin-bottom: 30px;
+    }
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #1a5fb4;
+      font-size: 16px;
+    }
+
+    /* Layout */
+    .container {
+      display: flex;
+      gap: 40px;
+      align-items: flex-start;
+    }
+
+    .text {
+      flex: 2;
+    }
+
+    .photo {
+      flex: 1;
+    }
+
+    .photo img {
+      width: 100%;
+      max-width: 220px;
+      border-radius: 6px;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      margin-top: 30px;
+    }
+  </style>
 </head>
+
 <body>
 
-<h1>Yingchao Zhang</h1>
+<!-- Navigation -->
+<nav>
+  <a href="#">Home</a>
+  <a href="#">Publications</a>
+  <a href="#">CV</a>
+</nav>
 
-<p>Visiting Professor, University of Cambridge</p>
-<p>Assistant Professor, Durham University</p>
+<div class="container">
 
-<p>I am an economist specialising in entrepreneurship, SMEs, ESG, and innovation.</p>
+  <!-- Left text -->
+  <div class="text">
+    <h1>Yingchao Zhang, PhD</h1>
+
+    <div class="subtitle">
+      Visiting Professor, University of Cambridge<br>
+      Assistant Professor, Durham University
+    </div>
+
+    <p>
+    I am an economist specialising in Labour Economics,Personnel Economics, entrepreneurship, SMEs, ESG, and innovation.
+    My research focuses on how firms grow, adapt, and respond to technological and sustainability challenges.
+    </p>
+
+    <h2>Research Interests</h2>
+    <ul>
+      <li>Labour markets and Personnel Economics</li>
+      <li>Entrepreneurship and SMEs</li>
+      <li>ESG and firm performance</li>
+      <li>Innovation and organisational dynamics</li>
+    </ul>
+
+    <p>
+    Contact: yingchao.zhang@durham.ac.uk | yz2088@cam.ac.uk
+    </p>
+  </div>
+
+  <!-- Right photo -->
+  <div class="photo">
+    <img src="profile.jpg" alt="Yingchao Zhang">
+  </div>
+
+</div>
 
 </body>
 </html>
